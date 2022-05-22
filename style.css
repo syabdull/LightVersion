@@ -1,0 +1,35 @@
+body{
+    background-color:black;
+}
+*{
+    color:white;
+}
+header{
+    border:2px solid yellow;
+    display:flex;   
+}
+header>h1{
+    font-family:Arial, Helvetica, sans-serif;
+}
+ul{
+    display:flex;
+    justify-content:space-around;
+    float:right;    
+  
+    margin-top:0px;  
+}
+li{
+    padding:40px;
+    margin-top:5px;
+    list-style-type:none;
+    padding-top:0px;
+}
+nav{
+     margin-left:700px;
+     margin-top:10px;  
+   
+}
+li:hover{
+     cursor:pointer;
+     color:yellowgreen;
+}
